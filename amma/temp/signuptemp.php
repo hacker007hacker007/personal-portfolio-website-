@@ -1,4 +1,3 @@
-<pre>
 <?php
 if(isset($_POST['mail']) and isset($_POST['passwor']) and isset($_POST['name']) and isset($_POST['mobile']))
 {
@@ -49,4 +48,4 @@ if ($result) {?>
 		<button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
 		<p class="mt-5 mb-3 text-muted">© 2017–2022</p>
 	</form>
-</main><?php }?></pre>
+</main><?php }?>

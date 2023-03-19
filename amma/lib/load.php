@@ -2,6 +2,8 @@
 include_once "includes/data.class.php";
 include_once "includes/user.class.php";
 include_once "includes/session.class.php";
+
+Session::start();
 function convert($name)
 {
     include $_SERVER["DOCUMENT_ROOT"] . "/amma/temp/$name.php";

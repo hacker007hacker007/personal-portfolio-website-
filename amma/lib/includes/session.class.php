@@ -1,6 +1,5 @@
 <?php
 
-Session::start();
 class Session
 {
     public static function start()
